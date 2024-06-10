@@ -5,5 +5,5 @@ const schema = mongoose.Schema({
     "manDate": String,
     "price": String,
 })
-let productmodel = mongoose.model("products", schema)
+let productmodel = mongoose.model("products", schema);
 module.exports = { productmodel }
